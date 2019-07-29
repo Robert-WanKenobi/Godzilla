@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ricardo\\Documents\\VS\\Godzilla\\New\\Godzilla\\src\\dotnetHelloWorld\\dotnetHelloWorld.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ricardo\\Documents\\VS\\Godzilla\\New\\Godzilla\\src\\dotnetHelloWorld\\dotnetHelloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ricardo\\Documents\\VS\\Godzilla\\New\\Godzilla\\src\\dotnetHelloWorld\\dotnetHelloWorld.csproj",
+        "projectName": "dotnetHelloWorld",
+        "projectPath": "C:\\Users\\Ricardo\\Documents\\VS\\Godzilla\\New\\Godzilla\\src\\dotnetHelloWorld\\dotnetHelloWorld.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ricardo\\Documents\\VS\\Godzilla\\New\\Godzilla\\src\\dotnetHelloWorld\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ricardo\\Documents\\VS\\Godzilla\\New\\Godzilla\\NuGet.Config",
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "EntityFramework.IBM.DB2": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "IBM.Cloud.SDK.Core": {
+              "target": "Package",
+              "version": "[0.8.2, )"
+            },
+            "IBM.MobileFirstPlatformFoundationPush": {
+              "target": "Package",
+              "version": "[8.0.2018102507, )"
+            },
+            "IBM.WatsonDeveloperCloud": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "IBM.WatsonDeveloperCloud.Assistant.v1": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "IBM.WatsonDeveloperCloud.NaturalLanguageUnderstanding.v1": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "IBM.WatsonDeveloperCloud.SpeechToText.v1": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "IBM.WatsonDeveloperCloud.ToneAnalyzer.v3": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
